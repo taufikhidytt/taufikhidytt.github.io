@@ -1,0 +1,194 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+
+.jumbotron-fluid {
+    background-image: url('../img/lukenn-sabellano-FT8NBtAekiI-unsplash.jpg');
+    background-size: cover;
+    height: 650px;
+    background-attachment: fixed;
+    padding: 8%;
+    color: aliceblue;
+}
+
+.jumbotron-fluid h2 {
+    font-size: 55px;
+    font-family: serif;
+    color: #ffffff;
+}
+
+.jumbotron-fluid img {
+    margin-top: 150px;
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+
+.control-panel {
+    background-color: #f4f7fc;
+    margin-top: -140px;
+    border-radius: 20px;
+    box-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.7);
+    font-family: cursive;
+    border: 1px solid grey;
+    transition: 1s;
+}
+
+.control-panel:hover {
+    margin-top: -160px;
+    box-shadow: 0px 50px 10px -30px rgba(0, 0, 0, 0.4);
+    transition: 1s;
+}
+
+.panel .photo {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.container .icon img {
+    position: absolute;
+    width: 150px;
+    box-shadow: 20px 20px 20px;
+}
+
+.container .icon .satu img {
+    margin-top: -100px;
+    margin-left: -90px;
+}
+
+.container .icon .dua img {
+    margin-left: 1050px;
+    margin-top: -100px;
+}
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.about h1 {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.about p {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.progres,
+.col-md-12 {
+    background-color: #e2e1e1;
+    padding: 50px 0 25px 0;
+}
+
+.portfolio {
+    height: 100vh;
+}
+
+.portfolio-info {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.row {
+    padding: 30px;
+}
+
+.contak {
+    background-color: #cdddff;
+    font-family: poppins;
+    font-size: 12px;
+}
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+    .navbar {
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .brand img {
+        width: 50px;
+    }
+
+    .btn-light {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        float: center;
+    }
+
+    .align-self-center p {
+        float: right;
+    }
+
+    .img-portfolio {
+        width: 300px;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .jumbotron-fluid {
+        padding: 15%;
+    }
+
+    .jumbotron-fluid img {
+        margin-top: 100px;
+        width: 200px;
+        height: 250px;
+    }
+
+    .jumbotron-fluid h2 {
+        font-family: cursive;
+        font-size: 35px;
+    }
+
+    .jumbotron-fluid p {
+        font-size: 17px;
+        font-family: cursive;
+        margin-bottom: 100px;
+    }
+
+    .control-panel {
+        background-color: #f4f7fc;
+        margin-top: -200px;
+        border-radius: 10px;
+        font-family: cursive;
+        font-size: 12px;
+    }
+
+    .control-panel:hover {
+        margin-top: -210px;
+    }
+
+    .panel img {
+        width: 10px;
+    }
+
+    .control-panel img {
+        width: 50px;
+    }
+
+
+    .portfolio {
+        margin-bottom: 400px;
+    }
+
+}
