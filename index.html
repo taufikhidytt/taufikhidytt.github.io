@@ -269,6 +269,16 @@
 
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+        var pokeURL = "http://pokeapi.co/api/v1/pokemon/" + param;
+
+        $.getJSON(pokeURL, function(data){
+            console.log(data);
+            console.log(JSON.stringify(data, null, "  "));
+
+        });
+    </script>
 </body>
 
 </html>
