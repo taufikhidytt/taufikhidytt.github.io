@@ -1,3 +1,2 @@
 # taufikhidytt.github.io
-Portfolio Project Taufik Hidayat
-menggunakan html, bootstrap
+Portfolio Taufik Hidayat
