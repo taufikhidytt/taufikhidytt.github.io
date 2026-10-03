@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+👋 Taufik Hidayat
 
-# Run and deploy your AI Studio app
+💻 Personal portfolio website showcasing my work, skills, and projects.
 
-This contains everything you need to run your app locally.
+🌐 Live Website
+taufikhidytt.github.io
 
-View your app in AI Studio: https://ai.studio/apps/b6aeeb53-c825-407c-97e6-5988ad1badc7
+🛠️ Tech Stack
 
-## Run Locally
+HTML · CSS · JavaScript
 
-**Prerequisites:**  Node.js
+✨ About
 
+A clean and responsive portfolio website built to showcase my projects, skills, and experience.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+📫 Connect
+
+🐙 GitHub · @taufikhidytt
+
+⭐ Thanks for visiting my repository!
+
+© 2026 Taufik Hidayat
