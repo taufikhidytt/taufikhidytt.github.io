@@ -3,7 +3,7 @@
 💻 Personal portfolio website showcasing my work, skills, and projects.
 
 🌐 Live Website
-<a href="https://taufikhidytt.github.io/" target="_blank">taufikhidytt.github.io</a>
+<a href="https://taufikhidytt.github.io/" target="__blank">taufikhidytt.github.io</a>
 
 🛠️ Tech Stack
 
