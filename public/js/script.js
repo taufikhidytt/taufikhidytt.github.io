@@ -280,7 +280,7 @@ $(document).ready(function () {
   const projectsData = {
     1: {
       title: 'Slicing UI Flutter',
-      category: 'Website',
+      category: 'APP',
       image: 'public/assets/images/project-image11.png',
       description: 'Platform toko online modern dan responsif dengan fitur katalog produk terstruktur, filter kategori dinamis, keranjang belanja interaktif (cart), kalkulator ongkir otomatis, dan sistem checkout mulus.',
       features: [
@@ -295,58 +295,58 @@ $(document).ready(function () {
       githubUrl: 'https://github.com/taufikhidytt'
     },
     2: {
-      title: 'SaaS Business Analytics Dashboard',
-      category: 'Dashboard & Web App',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1000&auto=format&fit=crop&q=80',
-      description: 'Dashboard analitik bisnis interaktif untuk memonitor metrik performa penjualan, grafik pertumbuhan pengunjung, tabel riwayat transaksi dengan pagination, dan dukungan mode gelap/terang terintegrasi.',
+      title: 'Dashboard Order & Delivery',
+      category: 'Dashboard Statistik',
+      image: 'public/assets/images/img-inti-dashboard.png',
+      description: 'Dashboard analitik bisnis interaktif dengan grafik pengiriman, pemantauan trafik real-time dan manajemen tabel pengiriman.',
       features: [
         'Visualisasi grafik interaktif & ringkasan revenue',
-        'Filter data berdasarkan rentang waktu harian/mingguan/bulanan',
+        'Filter data berdasarkan rentang waktu',
         'Manajemen data pengguna dan tabel transaksi cepat',
-        'Perpindahan tema gelap dan terang secara instan',
-        'Dukungan ekspor laporan data sederhana'
+        'Mengetahui rata rata perpindahan status delivery',
+        'Menyajian perangkingan driver sebagai bahan penilaian dari order dan pengiriman yang berhasil'
       ],
-      tech: ['HTML5', 'Bootstrap 5', 'CSS Grid', 'jQuery', 'Chart.js', 'Responsive UI'],
+      tech: ['Bootstrap', 'Chart.js', 'jQuery', 'HTML', 'CSS'],
       demoUrl: 'https://taufikhidytt.github.io/',
       githubUrl: 'https://github.com/taufikhidytt'
     },
     3: {
-      title: 'Task & Kanban Project Management',
-      category: 'Web Application & Productivity',
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1000&auto=format&fit=crop&q=80',
-      description: 'Aplikasi manajemen tugas produktivitas dengan papan Kanban visual. Pengguna dapat membuat tugas, mengatur prioritas, memindahkan status (Todo, In Progress, Done), serta menetapkan deadline dengan pengingat.',
+      title: 'Operations Management System',
+      category: 'Website',
+      image: 'public/assets/images/img-inti-login.PNG',
+      description: 'Website operasional yang didalamnya terdiri dari order & delivery, booking ruang meeting, booking kendaraan, inventory GA Team.',
       features: [
-        'Papan Kanban interaktif dengan status dinamis',
-        'Filter tugas berdasarkan prioritas (High, Medium, Low)',
-        'Pencarian tugas dan indikator persentase penyelesaian',
-        'Penyimpanan persisten lokal tanpa perlu login',
-        'Transisi kartu yang mulus dan ramah pengguna'
+        'Pendataan yang lebih terstruktur dan keterbukaan akses',
+        'Realtime data yang tersedia',
+        'Analisa dari data yang tersedia dengan bentuk dashboard chart',
+        'Kemudahan user untuk penggunaan',
       ],
-      tech: ['HTML5', 'CSS3', 'JavaScript (ES6)', 'jQuery', 'Bootstrap 5'],
+      tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
       demoUrl: 'https://taufikhidytt.github.io/',
       githubUrl: 'https://github.com/taufikhidytt'
     },
     4: {
-      title: 'Digital Restaurant Menu & Table Ordering',
-      category: 'Web Application & Food & Beverage',
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000&auto=format&fit=crop&q=80',
-      description: 'Solusi sistem menu digital interaktif untuk cafe dan restoran. Pelanggan dapat memindai QR code, memilih menu makanan/minuman dengan filter khusus (Vegan, Best Seller, Pedas), dan langsung memesan ke dapur.',
+      title: 'Work Order Management System',
+      category: 'Website',
+      image: 'public/assets/images/img-regis-login.PNG',
+      description: 'System berfokus untuk request client, mendistribusikan, dan memantau perintah kerja sesuai dengan request client.',
       features: [
-        'Tampilan katalog menu bersih dengan foto resolusi tinggi',
-        'Fitur pesanan meja dengan input nomor meja otomatis',
-        'Perhitungan total pesanan, diskon promo, dan pajak secara real-time',
-        'Tombol konfirmasi pesanan terhubung langsung ke WhatsApp restoran',
-        'Akses cepat dan ringan di koneksi mobile'
+        'Kemudahan akses',
+        'Pendataan terpusat',
+        'Assignment langsung ke engineer',
+        'Fitur diskusi langsung dengan client room diskusi website',
+        'Laporan lebih terintegritas',
+        'Management waktu deadline lebih terarah'
       ],
-      tech: ['HTML5', 'CSS Variables', 'Bootstrap 5', 'jQuery', 'WhatsApp API Integration'],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery', 'Javascript', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
       demoUrl: 'https://taufikhidytt.github.io/',
       githubUrl: 'https://github.com/taufikhidytt'
     },
     5: {
-      title: 'Developer Productivity Suite & Code Snippets',
-      category: 'Developer Tools',
-      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1000&auto=format&fit=crop&q=80',
-      description: 'Aplikasi utilitas khusus pengembang web yang menyediakan pengelola cuplikan kode (snippet manager), generator Git commit convention, serta live Markdown editor dengan pratinjau instan.',
+      title: 'Dashboard Calendar Work Order Management System',
+      category: 'Dashboard Statistik',
+      image: 'public/assets/images/img-regis-dashboard.PNG',
+      description: 'Dashboard calendar bisnis interaktif dengan tiketing pada setiap tanggal request, pemantauan aktifitas real-time dan manajemen tabel pekerjaan.',
       features: [
         'Simpan & salin cuplikan kode favorit dengan satu kali klik',
         'Generator pesan Git commit standar profesional',
@@ -354,26 +354,282 @@ $(document).ready(function () {
         'Pencarian cepat dan penandaan tag teknologi',
         'Desain tema gelap bernuansa terminal modern'
       ],
-      tech: ['HTML5', 'CSS3', 'JavaScript Vanilla', 'Bootstrap 5', 'jQuery'],
+      tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'Chart.js'],
       demoUrl: 'https://taufikhidytt.github.io/',
       githubUrl: 'https://github.com/taufikhidytt'
     },
     6: {
-      title: 'Creative Agency & Studio Showcase',
-      category: 'Landing Page & Branding',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&auto=format&fit=crop&q=80',
-      description: 'Landing page agensi digital kreatif dengan tata letak visual elegan, navigasi mulus, studi kasus proyek, serta formulir penawaran kerja sama yang ramah bagi calon klien.',
+      title: 'Inquiry System',
+      category: 'Website',
+      image: 'public/assets/images/img-inq-login.PNG',
+      description: 'System inquiry bertujuan untuk memusatkan seluruh inquiry dari client dalam satu platform dari sales to sales cabang dan sales to purchase.',
       features: [
-        'Tipografi modern dan komposisi visual berkelas',
-        'Studi kasus interaktif dengan galeri foto modal',
-        'FAQ accordion interaktif dan testimoni klien',
-        'Skema warna menenangkan dengan animasi hover mikro',
-        'Skor audit Lighthouse tinggi untuk SEO dan aksesibilitas'
+        'Sebagai penghubung sales to sales cabang',
+        'Media komunikasi terpusat antar sales to purchase',
+        'Akses yang mudah dan penggunan lebih sederhana',
+        'Laporan yang lebih dinamis',
       ],
-      tech: ['HTML5', 'Modern CSS', 'Bootstrap 5', 'jQuery Animations'],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
       demoUrl: 'https://taufikhidytt.github.io/',
       githubUrl: 'https://github.com/taufikhidytt'
-    }
+    },
+    7: {
+      title: 'Landing Page Recruitment',
+      category: 'Landing Page',
+      image: 'public/assets/images/img-hr-landing.png',
+      description: 'Website recruitment halaman untuk user public yang ingin mencari informasi opportunity karir serta cabang-cabang.',
+      features: [
+        'UI yang lebih simple',
+        'Warna yang lebih stabil',
+        'Akses yang mudah dan penggunan lebih sederhana',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    8: {
+      title: 'Recruitment System',
+      category: 'Website',
+      image: 'public/assets/images/img-hr-login.PNG',
+      description: 'Recruitment system untuk internal dan cabang mengelola kebutuhan posisi yang dibutuhkan dengan final berada di HR untuk mengelolanya.',
+      features: [
+        'Akses yang mudah dan penggunan lebih sederhana',
+        'Data terpusat antar bagian',
+        'Keterbukaan data yang jelas',
+        'Record data yang dapat menjadi laporan yang lebih dinamis dan jelas',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    9: {
+      title: 'Recruitment System',
+      category: 'Website',
+      image: 'public/assets/images/img-crm-login.PNG',
+      description: 'Customer Relationship Management System adalah sistem yang digunakan untuk mengelola hubungan dan interaksi dengan client, pengelolaan kebutuhan client, tindak lanjut permintaan, hingga pemantauan layanan dan riwayat komunikasi.',
+      features: [
+        'Mengelola data kontak dan informasi pelanggan dan calon pelanggan',
+        'Mengelola proses dan peluang penjualan',
+        'Mengelola tugas, jadwal, dan aktivitas tindak lanjut',
+        'Mendokumentasikan komunikasi dengan pelanggan',
+        'Laporan dan dashboard statistik untuk mengambil keputusan dan penilaian',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'PHP', 'Laravel 12', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    10: {
+      title: 'Dashboard CRM',
+      category: 'Dashboard Statistik',
+      image: 'public/assets/images/img-crm-dashboard1.png',
+      description: 'Dashboard CRM untuk menampilkan ringkasan informasi client, status permintaan, penugasan pekerjaan, serta aktivitas dan performa tim dalam satu tampilan terpusat.',
+      features: [
+        'Mengelola data kontak dan informasi pelanggan dan calon pelanggan',
+        'Mengelola proses dan peluang penjualan',
+        'Mengelola tugas, jadwal, dan aktivitas tindak lanjut',
+        'Mendokumentasikan komunikasi dengan pelanggan',
+        'Laporan dan dashboard statistik untuk mengambil keputusan dan penilaian',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'Chart.js', 'PHP', 'Laravel 12', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    11: {
+      title: 'Dashboard CRM',
+      category: 'Dashboard Statistik',
+      image: 'public/assets/images/img-crm-dashboard2.png',
+      description: 'Dashboard CRM untuk menampilkan ringkasan informasi client, status permintaan, penugasan pekerjaan, serta aktivitas dan performa tim dalam satu tampilan terpusat.',
+      features: [
+        'Mengelola data kontak dan informasi pelanggan dan calon pelanggan',
+        'Mengelola proses dan peluang penjualan',
+        'Mengelola tugas, jadwal, dan aktivitas tindak lanjut',
+        'Mendokumentasikan komunikasi dengan pelanggan',
+        'Laporan dan dashboard statistik untuk mengambil keputusan dan penilaian',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'Chart.js', 'PHP', 'Laravel 12', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    12: {
+      title: 'Dashboard CRM',
+      category: 'Dashboard Statistik',
+      image: 'public/assets/images/img-crm-dashboard3.png',
+      description: 'Dashboard CRM untuk menampilkan ringkasan informasi client, status permintaan, penugasan pekerjaan, serta aktivitas dan performa tim dalam satu tampilan terpusat.',
+      features: [
+        'Mengelola data kontak dan informasi pelanggan dan calon pelanggan',
+        'Mengelola proses dan peluang penjualan',
+        'Mengelola tugas, jadwal, dan aktivitas tindak lanjut',
+        'Mendokumentasikan komunikasi dengan pelanggan',
+        'Laporan dan dashboard statistik untuk mengambil keputusan dan penilaian',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'Chart.js', 'PHP', 'Laravel 12', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    13: {
+      title: 'Dashboard CRM',
+      category: 'Dashboard Statistik',
+      image: 'public/assets/images/img-crm-dashboard4.png',
+      description: 'Dashboard CRM untuk menampilkan ringkasan informasi client, status permintaan, penugasan pekerjaan, serta aktivitas dan performa tim dalam satu tampilan terpusat.',
+      features: [
+        'Mengelola data kontak dan informasi pelanggan dan calon pelanggan',
+        'Mengelola proses dan peluang penjualan',
+        'Mengelola tugas, jadwal, dan aktivitas tindak lanjut',
+        'Mendokumentasikan komunikasi dengan pelanggan',
+        'Laporan dan dashboard statistik untuk mengambil keputusan dan penilaian',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'jQuery Javascript', 'Ajax', 'Chart.js', 'PHP', 'Laravel 12', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    14: {
+      title: 'Marketplace Website',
+      category: 'Website',
+      image: 'public/assets/images/project-image04.png',
+      description: 'System ini untuk sarana latihan dan belajar membuat marketplace sendiri dengan kebutuhan kebutuhan pengembangan diri sendiri.',
+      features: [
+        'Project untuk belajar dan explore',
+        'Mengelola barang dan peluang penjualan',
+        'Mengelola transaksi penjualan',
+        'Mendokumentasikan dalam bentuk laporan',
+      ],
+      tech: ['Wordpress'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    15: {
+      title: 'Landing Page',
+      category: 'Landing Page',
+      image: 'public/assets/images/project-image02.png',
+      description: 'Website landing page untuk membuat halaman antar muka dengan menjadikan halaman utama',
+      features: [
+        'Project untuk belajar dan explore',
+        'Membentuk layout yang minimalis',
+        'Mengelola perpaduan warna dan gambar',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    16: {
+      title: 'Website Portofolio',
+      category: 'Landing Page',
+      image: 'public/assets/images/project-image03.png',
+      description: 'Website Portofolio yang dikhususkan untuk menampilkan project project serta data diri dan experiance agar memudahkan untuk mengaksesenya',
+      features: [
+        'Project untuk showcase project, experiance, perkenalan diri',
+        'Membentuk layout yang minimalis',
+        'Akses yang mudah',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    17: {
+      title: 'Website Pendataan Penggajian',
+      category: 'Website',
+      image: 'public/assets/images/project-image01.png',
+      description: 'Website ini platform berbasis web yang digunakan untuk mengelola, mencatat, dan memantau data penggajian karyawan secara terpusat, mulai dari data karyawan, komponen gaji. Project ini sebagai bentuk project latihan untuk mengembangkan diri',
+      features: [
+        'Project untuk belajar dan mengembangkan diri',
+        'Master data penggajian',
+        'Transaction penggajian',
+        'Laporan record data penggajian',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'PHP', 'Codeigniter 3', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    18: {
+      title: 'Website CMS',
+      category: 'Website',
+      image: 'public/assets/images/project-image10.png',
+      description: 'Website CMS ini project freelance yang di gunakan untuk memperkenalkan usaha kepada calon customer.',
+      features: [
+        'Akses lebih mudah',
+        'Monolith arsitektur',
+        'Pendataan lebih dinamis',
+        'Konten berita update',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    19: {
+      title: 'Website Travel',
+      category: 'Website',
+      image: 'public/assets/images/project-image05.png',
+      description: 'Website ini dibangun dan dibentuk sebagai hasil akhir dari course dari <a href="https://buildwithangga.com/" target="_blank">buildwithangga.com</a>.',
+      features: [
+        'Project latihan dan explore',
+        'Mengelola data lebih sederhana',
+        'Akses yang mudah',
+        'Monolith arsitektur',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'PHP', 'Laravel 7', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    20: {
+      title: 'Website CMS BAZNAS Kota Tangerang',
+      category: 'Website',
+      image: 'public/assets/images/project-image07.png',
+      description: 'Website atau platform yang digunakan untuk membuat, mengelola, memperbarui, dan mempublikasikan konten digital melalui satu sistem terpusat tanpa harus mengubah kode program secara langsung untuk setiap pembaruan konten.',
+      features: [
+        'Management konten berita lebih dinamis',
+        'Mengelola informasi lebih sederhana',
+        'Akses yang mudah',
+        'Monolith arsitektur',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    21: {
+      title: 'Website CMS Diskominfo Kota Tangerang',
+      category: 'Website',
+      image: 'public/assets/images/project-image08.png',
+      description: 'Website atau platform yang digunakan untuk membuat, mengelola, memperbarui, dan mempublikasikan konten digital melalui satu sistem terpusat tanpa harus mengubah kode program secara langsung untuk setiap pembaruan konten.',
+      features: [
+        'Management konten berita lebih dinamis',
+        'Mengelola informasi lebih sederhana',
+        'Akses yang mudah',
+        'Monolith arsitektur',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    22: {
+      title: 'Website CMS Dinkes Kota Tangerang',
+      category: 'Website',
+      image: 'public/assets/images/project-image09.png',
+      description: 'Website atau platform yang digunakan untuk membuat, mengelola, memperbarui, dan mempublikasikan konten digital melalui satu sistem terpusat tanpa harus mengubah kode program secara langsung untuk setiap pembaruan konten.',
+      features: [
+        'Management konten berita lebih dinamis',
+        'Mengelola informasi lebih sederhana',
+        'Akses yang mudah',
+        'Monolith arsitektur',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery', 'Ajax', 'PHP', 'Codeigniter 3', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
+    23: {
+      title: 'Inventory System',
+      category: 'Website',
+      image: 'public/assets/images/project-image06.png',
+      description: 'Website inventory ini dibuat untuk bahan belajar dengan studi kasus inventory.',
+      features: [
+        'Project belajar dan explore',
+        'Manajemen gudang penyimpanan',
+        'Akses yang mudah',
+        'Monolith arsitektur',
+      ],
+      tech: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'PHP', 'Laravel 7', 'MySql'],
+      demoUrl: 'https://taufikhidytt.github.io/',
+      githubUrl: 'https://github.com/taufikhidytt'
+    },
   };
 
   // Open Project Detail Modal
